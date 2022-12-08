@@ -53,7 +53,8 @@ Ahora debes utilizar el codigo [medidor_de_distancia.ino](https://github.com/Fry
 Ultima Actualizacion
 -------------
 
-###Correccion caracteres al final del LCD
+
+##Correccion caracteres al final del LCD
 
 Declaramos una variable para guardar la ulltima distancia registrada
 ```C++
