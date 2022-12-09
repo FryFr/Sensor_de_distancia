@@ -70,3 +70,7 @@ Creamos un condicional para comparar las distancias registradas con las ultimas 
     lcd.print("CM");
   }
 ```
+
+## Creditos
+- Nicolas Sanchez
+- Juan Silva
