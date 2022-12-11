@@ -34,7 +34,7 @@ void loop() {
   Serial.println();
 
   if(distancia != ultimadistancia){   // realizamos un comparador de la distancia y la guardada de ultimo
-    lcd.clear;                        //Limpiamos la pantalla por cada ciclo de datos encontrados
+    lcd.clear();                        //Limpiamos la pantalla por cada ciclo de datos encontrados
     lcd.setCursor(0,0);
     lcd.print("Distancia: ");
     lcd.print(distancia);              //Enviamos serialmente el valor de la distancia al LCD
