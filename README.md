@@ -63,7 +63,7 @@ int ultimadistancia = 0;           //declaramos una variable para poder limpiar 
 Creamos un condicional para comparar las distancias registradas con las ultimas almacenadas y limpiamos la pantalla para evitar que se extiendan los caracteres, manteniendo el delay por fuera de la funcion
 ```C++
   if(distancia != ultimadistancia){   // realizamos un comparador de la distancia y la guardada de ultimo
-    lcd.clear;                        //Limpiamos la pantalla por cada ciclo de datos encontrados
+    lcd.clear();                        //Limpiamos la pantalla por cada ciclo de datos encontrados
     lcd.setCursor(0,0);
     lcd.print("Distancia: ");
     lcd.print(distancia);              //Enviamos serialmente el valor de la distancia al LCD
